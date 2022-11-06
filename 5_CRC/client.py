@@ -61,8 +61,7 @@ port = 12345
 s.connect(('127.0.0.1', port))
 
 
-input_string = input("Enter data you want to send->")
-data =(''.join(format(ord(x), 'b') for x in input_string))
+data = input("Enter data you want to send->")
 print("Entered data in binary format :",data)
 key = "1001"
 
